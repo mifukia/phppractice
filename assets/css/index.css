@@ -445,3 +445,20 @@ blockquote:before {
 .userData ul li:nth-child(2n) {
   margin-right: 0;
 }
+
+.userForm p {
+  margin-top: 1em;
+}
+
+.userForm input, .userForm textarea {
+  width: 300px;
+  margin-top: 1em;
+  display: block;
+}
+
+.userForm input[type="submit"] {
+  width: 80px;
+  border: 1px solid #ccc;
+  background: #ccc;
+  line-height: 2;
+}

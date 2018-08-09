@@ -24,3 +24,19 @@
         }
     }
 }
+.userForm{
+    p{
+        margin-top: 1em;
+    }
+    input,textarea{
+        width: 300px;
+        margin-top: 1em;
+        display: block;
+    }
+    input[type="submit"]{
+        width: 80px;
+        border: 1px solid #ccc;
+        background: #ccc;
+        line-height: 2;
+    }
+}

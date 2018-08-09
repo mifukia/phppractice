@@ -68,6 +68,19 @@
                     </p>
                 </ul>
             </div>
+            <div class="userForm">
+                <form action="add.php" method="post">
+                    <p>名前</p>
+                    <input type="text" name="name" id="user_name">
+                    <p>メールアドレス</p>
+                    <input type="email" name="mail" id="user_mail">
+                    <p>電話番号</p>
+                    <input type="tel" name="tel" id="user_tel">
+                    <p>コメント</p>
+                    <textarea name="memo" id="user_memo"></textarea>
+                    <input type="submit" value="送信">
+                </form>
+            </div>
             <div class="userData">
                 <ul>
                 <?php foreach($users as $user) : ?>
