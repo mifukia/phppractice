@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+@import "_common";
+
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+.menu{
+
+}
+.userData{
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            width: 45%;
+            margin-right: 5%;
+            margin-top: 2%;
+            &:nth-child(2n){
+                margin-right: 0;
+            }
+        }
+    }
+}
